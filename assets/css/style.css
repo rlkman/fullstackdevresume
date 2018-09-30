@@ -22,6 +22,34 @@
     background-color: #525252;
 }
 
+/*-----------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+
+/*----------------------------------------Special margins/padding/text*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.uppercse{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
 /*-----------------------------------------------Heading*/
 
 header{
@@ -33,7 +61,7 @@ header{
 }
 
 .logo{
-    background:url("../images/teacher1.jpeg");
+    background:url("../images/library_mac.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,6 +90,10 @@ header{
 
 #nav{
     margin: 0;
+}
+
+#nav li{
+    padding: 0;
 }
 
 .menuitem{
@@ -93,4 +125,14 @@ header{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+
+/*-----------------------------------------------Footer*/
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
