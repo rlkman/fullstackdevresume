@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inline-block{
+    margin-top: 10px;
     display: inline-block;
 }
 
@@ -135,4 +136,47 @@ footer{
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+footer .cv-pdf i{
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover{
+    color: #e84610;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -wekit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+}
+
+.social-links{
+    padding-top: 10px;
+}
+
+.social-links li a i{
+    width:32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -wekit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background-color: #e84610;
+}
+
+#footer-details{
+    margin: 20px;
 }
