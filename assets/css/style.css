@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*-----------------------------------------------Colors*/
+/*-------------------------Colors----------------------*/
 
 
 /*----------------------------------------------personal info*/
@@ -71,6 +71,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.fa{
+    color: #FF9800;
+    font-size: 20px;
 }
 
 /*-----------------------------------------------Heading*/
@@ -244,10 +249,39 @@ footer .cv-pdf i:hover{
 
 /*--------------------------------------------Media Queries*/
 
+.progress{
+    position: relative;
+    height: 25px;
+}
+
+.progress-type{
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25,25,25,0.2);
+}
+
+.progress-section{
+    margin:40px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------Media Queries*/
+
 @media(min-width:992){
     .section-column{
     padding: 0 30px 30px;
     float: none;
     display: table-cell;
-    ]
+    }
 }
