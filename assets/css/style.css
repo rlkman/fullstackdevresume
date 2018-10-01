@@ -2,10 +2,17 @@
 
 /*-----------------------------------------------Colors*/
 
+
+/*----------------------------------------------personal info*/
+.bg-color-personal_info{
+    background-color: #f4f4f4;
+}
+
 .bg-color-name-title{
     background-color: #676767;
 }
 
+/*-----------------------------------------------three reasons*/
 .bg-color-three-reasons{
     background-color: #ffffff;
 }
@@ -40,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.uppercse{
+.uppercase{
     text-transform: uppercase;
 }
 
@@ -53,12 +60,6 @@ h1, h2, h3, h4, h5, h6 {
 .inline-block{
     margin-top: 10px;
     display: inline-block;
-}
-
-.section-column{
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
 }
 
 .row-table{
@@ -200,4 +201,53 @@ footer .cv-pdf i:hover{
 
 #footer-details{
     margin: 20px;
+}
+
+/*--------------------------------------------Personal info*/
+
+.personal-info-item{
+    margin: 20px;
+    dispaly: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value{
+    padding: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin: 0;
+}
+
+.personal-info-item .key{
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 10px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p{
+    font-weight: 700;
+}
+
+.personal-info-item .value{
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+
+
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width:992){
+    .section-column{
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+    ]
 }
