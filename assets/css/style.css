@@ -6,6 +6,12 @@
 /*----------------------------------------------personal info*/
 .bg-color-personal_info{
     background-color: #f4f4f4;
+        padding-bottom: 50px;
+}
+
+.bg-color-work_history{
+    background-color: #9b59b6;
+    padding-bottom: 10px;
 }
 
 .bg-color-name-title{
@@ -65,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 .row-table{
     display: table;
 }
+
 
 .section-heading{
     font-family: "Exo", sans-serif;
@@ -212,8 +219,9 @@ footer .cv-pdf i:hover{
 
 .personal-info-item{
     margin: 20px;
-    dispaly: block;
+    display: block;
     clear: both;
+    height: 100%;
 }
 
 .personal-info-item .key,
@@ -245,6 +253,45 @@ footer .cv-pdf i:hover{
 }
 
 
+/*--------------------------------------------Work history*/
+
+.timeline-item{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: solid;
+}
+
+.timeline-item p{
+    padding: 0;
+    margin:0;
+}
+
+.timeline-item::before{
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin:0;
+    color: #fafafa;
+}
+
+.timeline-item::after{
+    width: 12px;
+    height: 12px;
+    display:block;
+    top: 2.4em;
+    position:absolute;
+    left: -6px;
+    border-radius: 12px;
+    content:'';
+    background: #fafafa;
+}
 
 
 /*--------------------------------------------Media Queries*/
@@ -283,5 +330,6 @@ footer .cv-pdf i:hover{
     padding: 0 30px 30px;
     float: none;
     display: table-cell;
+    height: 100%
     }
 }
