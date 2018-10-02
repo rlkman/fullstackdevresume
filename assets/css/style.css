@@ -2,46 +2,51 @@
 
 /*-------------------------Colors----------------------*/
 
-
 /*----------------------------------------------personal info*/
-.bg-color-personal_info{
+
+.bg-color-personal_info {
     background-color: #f4f4f4;
-        padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
-.bg-color-work_history{
+.bg-color-work_history {
     background-color: #9b59b6;
     padding-bottom: 10px;
 }
 
-.bg-color-name-title{
+.bg-color-name-title {
     background-color: #676767;
 }
 
-/*-----------------------------------------------three reasons*/
-.bg-color-three-reasons{
+.bg-color-contact {
     background-color: #ffffff;
 }
 
-.ui-menu-color-home{
-   background-color: #e67e22; 
+/*-----------------------------------------------three reasons*/
+
+.bg-color-three-reasons {
+    background-color: #ffffff;
 }
 
-.ui-menu-color-resume{
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
     background-color: #9b56b6;
 }
 
-.ui-menu-color-contact{
+.ui-menu-color-contact {
     background-color: #3498db;
 }
 
-.ui-menu-color-download-cv{
+.ui-menu-color-download-cv {
     background-color: #525252;
 }
 
 /*-----------------------------------------------Hover.css*/
 
-.hvr-sweep-to-bottom:before{
+.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
@@ -49,54 +54,59 @@
 
 /*----------------------------------------Special margins/padding/text*/
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
-.general-sub{
+.general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
 
-.inline-block{
+.inline-block {
     margin-top: 10px;
     display: inline-block;
 }
 
-.row-table{
+.row-table {
     display: table;
 }
 
-
-.section-heading{
+.history-heading,
+.section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
-.fa{
+.fa {
     color: #FF9800;
     font-size: 20px;
 }
 
 /*-----------------------------------------------Heading*/
 
-header{
+header {
     margin: 0;
 }
 
-.heading{
+.heading {
     margin-left: 50px;
 }
 
-.logo{
-    background:url("../images/liverlib.jpg");
+.logo {
+    background: url("../images/liverlib.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +116,7 @@ header{
     -wekit-transition: all .5s ease-in-out;
 }
 
-.name{
+.name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 40px;
@@ -114,7 +124,7 @@ header{
     color: #ffffff;
 }
 
-.title{
+.title {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
@@ -123,35 +133,35 @@ header{
     margin-bottom: 90px;
 }
 
-#nav{
+#nav {
     margin: 0;
 }
 
-#nav li{
+#nav li {
     padding: 0;
 }
 
-.menuitem{
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menuitem a{
+.menuitem a {
     width: 100%;
     height: 120px;
     text-decoration: none;
     color: #ffffff;
 }
 
-.menuitem a i{
+.menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menuitem span{
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -165,21 +175,21 @@ header{
 
 /*-----------------------------------------------Footer*/
 
-footer{
+footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
 }
 
-footer .cv-pdf i{
+footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
 }
 
-footer .cv-pdf i:hover{
+footer .cv-pdf i:hover {
     color: #e84610;
     transition: 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
@@ -187,12 +197,12 @@ footer .cv-pdf i:hover{
     -o-transition: 0.35s ease-in-out;
 }
 
-.social-links{
+.social-links {
     padding-top: 10px;
 }
 
-.social-links li a i{
-    width:32px;
+.social-links li a i {
+    width: 32px;
     height: 32px;
     padding: 12px;
     border-radius: 50%;
@@ -207,17 +217,17 @@ footer .cv-pdf i:hover{
     -o-transition: 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
+.social-links li a i:hover {
     background-color: #e84610;
 }
 
-#footer-details{
+#footer-details {
     margin: 20px;
 }
 
 /*--------------------------------------------Personal info*/
 
-.personal-info-item{
+.personal-info-item {
     margin: 20px;
     display: block;
     clear: both;
@@ -225,16 +235,16 @@ footer .cv-pdf i:hover{
 }
 
 .personal-info-item .key,
-.personal-info-item .value{
+.personal-info-item .value {
     padding: 8px;
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p{
+.personal-info-item .value p {
     margin: 0;
 }
 
-.personal-info-item .key{
+.personal-info-item .key {
     display: inline-block;
     width: 30%;
     margin-right: 21px;
@@ -242,11 +252,11 @@ footer .cv-pdf i:hover{
     vertical-align: top;
 }
 
-.personal-info-item .key p{
+.personal-info-item .key p {
     font-weight: 700;
 }
 
-.personal-info-item .value{
+.personal-info-item .value {
     display: inline-block;
     position: relative;
     width: 60%;
@@ -255,19 +265,19 @@ footer .cv-pdf i:hover{
 
 /*--------------------------------------------Work history*/
 
-.timeline-item{
+.timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
     border-left: solid;
 }
 
-.timeline-item p{
+.timeline-item p {
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
-.timeline-item::before{
+.timeline-item::before {
     content: attr(dates);
     position: absolute;
     left: 2.5em;
@@ -277,59 +287,89 @@ footer .cv-pdf i:hover{
     font-weight: 500;
     font-size: .8em;
     padding: 0;
-    margin:0;
+    margin: 0;
     color: #fafafa;
 }
 
-.timeline-item::after{
+.timeline-item::after {
     width: 12px;
     height: 12px;
-    display:block;
+    display: block;
     top: 2.4em;
-    position:absolute;
+    position: absolute;
     left: -6px;
     border-radius: 12px;
-    content:'';
+    content: '';
     background: #fafafa;
 }
 
+.history-heading {
+    color: #fafafa;
+    margin: 50px;
+}
 
-/*--------------------------------------------Media Queries*/
+.history-timeline {
+    margin-bottom: 30px;
+}
 
-.progress{
+
+/*--------------------------------------------SkillsProgress*/
+
+.progress {
     position: relative;
     height: 25px;
 }
 
-.progress-type{
+.progress-type {
     position: absolute;
     left: 0px;
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25,0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
-.progress-section{
-    margin:40px 20px;
+.progress-section {
+    margin: 40px 20px;
 }
 
 
+/*--------------------------------------------Contact*/
 
+.contact_heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 
-
-
-
-
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
 
 /*--------------------------------------------Media Queries*/
 
-@media(min-width:992){
-    .section-column{
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-    height: 100%
+@media(min-width:992) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+        height: 100%
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }
